@@ -3,7 +3,7 @@ package com.example.kotlin.mypokedexapp.pokemon
 import com.google.gson.annotations.SerializedName
 
 data class GenerationIii(
-    @SerializedName("emerald") val emerald: Emerald,
-    @SerializedName("firered-leafgreen") val fireredLeafgreen: FireredLeafgreen,
-    @SerializedName("ruby-sapphire") val rubySapphire: RubySapphire
+    val emerald: Emerald,
+    @SerializedName("firered-leafgreen") val firered_leafgreen: FireredLeafgreen,
+    @SerializedName("ruby-sapphire") val ruby_sapphire: RubySapphire
 )
