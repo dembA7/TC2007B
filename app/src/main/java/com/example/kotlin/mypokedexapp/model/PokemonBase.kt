@@ -1,4 +1,4 @@
-package com.example.kotlin.mypokedexapp
+package com.example.kotlin.mypokedexapp.model
 
 import com.google.gson.annotations.SerializedName
 

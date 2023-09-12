@@ -1,5 +1,6 @@
-package com.example.kotlin.mypokedexapp
+package com.example.kotlin.mypokedexapp.model
 
+import com.example.kotlin.mypokedexapp.utils.Constants
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

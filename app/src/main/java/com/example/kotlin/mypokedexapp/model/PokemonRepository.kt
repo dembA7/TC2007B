@@ -1,11 +1,14 @@
-package com.example.kotlin.mypokedexapp
+package com.example.kotlin.mypokedexapp.model
 
+import com.example.kotlin.mypokedexapp.model.NetworkModuleDI
+import com.example.kotlin.mypokedexapp.model.PokedexObject
+import com.example.kotlin.mypokedexapp.model.PokemonAPIService
 import com.example.kotlin.mypokedexapp.pokemon.Pokemon
 
 class PokemonRepository() {
-    private lateinit var api:PokemonAPIService
+    private lateinit var api: PokemonAPIService
 
-    suspend fun getPokemonList(limit:Int):PokedexObject?{
+    suspend fun getPokemonList(limit:Int): PokedexObject?{
         api = NetworkModuleDI()
         return try{
             api.getPokemonList(limit)

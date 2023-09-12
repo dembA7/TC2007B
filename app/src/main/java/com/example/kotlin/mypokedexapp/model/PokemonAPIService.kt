@@ -1,5 +1,6 @@
-package com.example.kotlin.mypokedexapp
+package com.example.kotlin.mypokedexapp.model
 
+import com.example.kotlin.mypokedexapp.model.PokedexObject
 import com.example.kotlin.mypokedexapp.pokemon.Pokemon
 import retrofit2.http.GET
 import retrofit2.http.Path
